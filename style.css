@@ -1,0 +1,299 @@
+.head {
+    height: 1rem;
+    width: 100%;
+    display: flex;
+}
+
+body {
+    background: white;
+    margin: 0;
+    padding: 0
+}
+.burger {
+    width: 21px;
+    margin: 4px 0 0 3px;
+    padding-left: 0px;
+    background: none;
+    padding-top: 2px;
+    border: none;
+}
+
+.burger-menu {
+    position: absolute;
+    top: 37px;
+    background: white;
+    width: 14%;
+    height: 26%;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.5);
+    border: 1px solid gray;
+    opacity: .9;
+    left: -500px;
+}
+
+.burger-menu-mid {
+    text-align: center;
+}
+
+.burger-menu-p {
+    color: rgba(0, 0, 0, 0.541327);
+    padding-left: 4%;
+    margin-bottom: 0;
+    margin-top: 1%
+}
+
+#burger-menu-button-first {
+    margin-left: 80%;
+    margin-top: 6%;
+    width: 24px;
+    height: 24px;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    background: linear-gradient(to right, #ffffff, #e1e1e1, #c3c3c3,  #767676,  #4d4d4d,  #181818, #000000);
+}
+
+.header-hr {
+    width: 100%;
+    height: 3px;
+    border: 0;
+    background: gray;
+}
+
+
+.main {
+    display: grid;
+    grid-template-columns: 5% 10.5% 60.5% 23%;
+    height: 38rem;
+}
+
+.name {
+    width: 90%;
+    margin: 0;
+    margin-left: 2%;
+    font-size: 130%;
+    text-decoration: none;
+    font-weight: bold
+}
+
+::backdrop
+{
+    background-color: white;
+}
+
+.three-dots {
+    margin-left: 5%;
+    margin-top: 3px;
+}
+                                        /* main */
+                                        /* pallete */                                        
+.pallete{
+    list-style-type: none;
+    margin-top: 112px;
+    margin-left: 0;
+    width: 35px;
+    height: 9rem;
+    border: 1px solid gray;
+    padding: 0;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.5);
+}
+
+.pallete>li {
+    margin-top: 10px;
+}
+.flex {
+    display: flex;
+}
+
+li>img {
+    width:20px;
+    height: 20px;
+}
+
+li>p {
+    margin-top: 0;
+    font-size: 134%;
+    margin-left: 12%;
+    color: rgba(0, 0, 0, 0.541327);
+}
+
+.button-pallete {
+    width: 31px;
+    height: 24px;
+    background: none;
+    border: 0;
+}
+
+.li-pen-color, .li-prev-color {
+    border-bottom: 1px solid gray;
+}
+
+.li-move {
+    margin-top: 22px;
+}
+
+.button-color {
+    width: 24px;
+    height: 24px;
+    border-radius: 20px;
+    border: 1px solid #000000;
+}
+
+#button-prev-color {
+    background: green;
+}
+
+.colors>li>button {
+    margin-left: 28px;
+}
+
+.li-red {
+    margin-top: 22px;
+}
+
+.predefined-top {
+    background: #F74141;
+}
+
+.predefined-middle {
+    background: #41B6F7;
+}
+
+.predefined-bottom {
+    background: green;
+}
+
+.colors {
+    height: 16rem;
+}
+                                        /* frames */
+.block-frames-outer {
+    border: 1px solid grey;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.5);
+}
+
+.block-frames-inner {
+    padding: 0 18px;
+}
+
+.ul-of-frames {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} 
+
+.yellow-border {
+    border: 2px solid #C9DA0D;
+}
+
+.gray-border {
+    border: 2px solid gray;
+}
+
+.li-frame {
+    background: #E3E3E3;
+    width: 98px;
+    height: 98px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 25% 25%;
+    grid-gap: 50%;
+}
+
+.li-frame>div {
+    height: 25px;
+    width: 25px;
+}
+
+.gray-frame-items {
+    background: gray;
+}
+
+.yellow-frame-items {
+    background: #C9DA0D;
+}
+
+.canvas-frame {
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 18px;
+}
+
+.number-of-frame {
+    margin: 0;
+    padding: 0;
+}
+.frame-top-right-item>i, .frame-bottom-right-item>i, .frame-bottom-left-item>i {
+    margin-top: 3px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-center>i {
+    margin-top: 3px;
+}
+
+.button-add-new-frame {
+    margin-top: 20px;
+    display: flex;
+    background: #E3E3E3;
+    border: 2px solid gray;
+    width: 102px;
+}
+
+.button-add-new-frame>i {
+    margin-top: 8px;
+}
+
+.button-frame-text {
+    margin: 0;
+}
+
+                                        /* canvas */
+.canvas-draw {
+    background: #E3E3E3;
+    margin-left: 5%;
+    margin-top: 5px;
+}     
+:-webkit-full-screen, :fullscreen, :-ms-fullscreen, :-moz-full-screen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0; 
+    background: none;}                                   
+
+                            /* result of animation drawing */
+.main-result-of-animation {
+    margin-top: 5px;
+    height: 300px;
+    width: 100%;
+    background-color: #E3E3E3;
+    display: grid;
+    grid-template-rows: 85% 15%;
+}          
+
+.main-result-fps {
+    background: #B0B0B0;
+    display: flex;
+    justify-content: center
+}
+
+.number-of-fps-min {
+    margin-right: 8px;
+    margin-top: 14px;
+}
+
+.number-of-fps-max {
+    margin-left: 8px;
+    margin-top: 14px;
+}
+
+                                    /* hover */
+
+.button-add-new-frame:hover, .button-delete:hover, .button-copy:hover, .canvas-frame:hover {
+    cursor: pointer;
+}
+
+.display-none:hover {
+    display: block;
+}
